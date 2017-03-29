@@ -9,9 +9,15 @@ var x = 1;
 'Hello JavaScript';
 
 
-var y = 2; var z = 3; // 不建议一行写多个语句
+/**
+ * 不建议一行写多个语句
+ */
+var y = 2; var z = 3;
 
 
+/**
+ * 语句块是一组语句的集合
+ */
 if(z > y){
 
     x = 0;
