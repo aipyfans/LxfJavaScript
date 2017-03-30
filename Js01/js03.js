@@ -72,6 +72,7 @@ s[13]; // undefined 超出范围的索引不会报错，但一律返回undefined
 var s = 'Test';
 s[0] = 'X';
 alert(s); // s仍然为'Test'
+
 // JavaScript为字符串提供了一些常用方法，注意，调用这些方法本身不会改变原有字符串的内容，而是返回一个新字符串：
 
 // toUpperCase
@@ -79,8 +80,8 @@ alert(s); // s仍然为'Test'
 
 var s = 'Hello';
 s.toUpperCase(); // 返回'HELLO'
-toLowerCase
 
+// toLowerCase
 // toLowerCase()把一个字符串全部变为小写：
 
 var s = 'Hello';
