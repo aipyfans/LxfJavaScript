@@ -1,6 +1,6 @@
 /**
  * Created by william on 17-2-5.
- * TODO
+ * 原型继承
  */
 
 
